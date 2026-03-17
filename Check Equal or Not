@@ -1,0 +1,16 @@
+import java.util.*;
+public class Sum{
+    public static void main(String args[]){
+        int x,y;
+        Scanner s=new Scanner(System.in);
+        x= s.nextInt();
+        y= s.nextInt();
+        if(x==y){
+            System.out.println("Equal");
+        }
+        else
+        {
+            System.out.println("Not Equal");
+        }
+    }
+}
